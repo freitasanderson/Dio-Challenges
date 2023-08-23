@@ -1,6 +1,6 @@
-let lines = gets().split("\n"); 
-let n = parseInt(lines.shift()); 
+const prompt = require('prompt-sync')();
 
+let n = parseInt(prompt('Digite um numero: ')); 
 
 let lista = [];
 let listaResultado = [];
